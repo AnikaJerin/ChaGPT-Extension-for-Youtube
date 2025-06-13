@@ -1,0 +1,68 @@
+html, body {
+  width: 450px;    /* Or your desired popup width */
+  height: 600px;   /* adjust as needed */
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 12px;
+  height: 300px;
+  overflow-y: auto; /* only vertical scroll */
+  background: #f5f5f5;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: none;  /* remove max-width to use full popup width */
+}
+
+
+.chat-box .msg-user {
+  background: #d0edfd;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  align-self: flex-end;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.chat-box .msg-bot {
+  background: #e5e5e5;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  align-self: flex-start;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+input, button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+button {
+  background: #007Bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube ChatGPT Assistant",
+  "version": "1.0",
+  "description": "Ask questions about YouTube videos using ChatGPT",
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["http://localhost:5003/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ask ChatGPT"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

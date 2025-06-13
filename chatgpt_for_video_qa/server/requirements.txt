@@ -1,0 +1,5 @@
+flask
+flask-cors
+python-dotenv
+playwright
+nest_asyncio
