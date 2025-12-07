@@ -6,7 +6,7 @@ from playwright.async_api import async_playwright
 # """
 async def login_and_save_auth(auth_file='auth.json'):
     email = "anikajerin2@gmail.com"
-    password = "anikaasif01634726574"
+    password = "x...."
 
     async with async_playwright() as p:
         context = await p.chromium.launch_persistent_context(
